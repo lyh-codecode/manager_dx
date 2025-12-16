@@ -1,0 +1,9 @@
+{
+  "name": "@equipment-management/database",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "generate-seed": "node generate_seed.js"
+  }
+}
+

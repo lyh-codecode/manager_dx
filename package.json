@@ -1,0 +1,19 @@
+{
+  "name": "industrial-equipment-management",
+  "version": "1.0.0",
+  "private": true,
+  "description": "工业设备台账管理系统",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "pnpm --parallel --filter \"./packages/*\" dev",
+    "build": "pnpm --filter \"./packages/*\" build",
+    "install:all": "pnpm install"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "packageManager": "pnpm@8.15.0"
+}
+
